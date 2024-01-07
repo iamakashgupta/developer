@@ -6,3 +6,4 @@ const person = {
 
 console.log(person.name)
 console.log(person.age)
+console.log("HELLO FROM THE TABLET")
