@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background:linear-gradient(skyblue,pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+button{
+    color:red;
+}
+#p4{
+    background: linear-gradient(pink,skyblue);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px;
+    margin: 30px;
+}
