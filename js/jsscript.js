@@ -10,6 +10,7 @@ function myCode1(){
 }
 //myCode1();
 
+
 function myCode2(){
     let firstName="bro";
     let age=20;
@@ -29,11 +30,38 @@ function myCode2(){
 
 
 function myCode3(){
-    console.log("this is the third function in this file")
+    //math 
+    let x;
+    let y;
+    let z;
+    
+    x=Math.round(7.8);
+      console.log();
+    //x=Math.floor();
+    //x=Math.pow();
+    //x=Math.sqrt(x);
+    //x=Math.floor();
+    //x=Math.floor();
+  
     
 }
-myCode3();
-function myCode4(){}
+//myCode3();
+function myCode4(){
+    //hypotenuse of a triangle
+    document.getElementById("submitButton").onclick = function(){
+        a=document.getElementById("aTextBox").value;
+        a=Number(a);
+
+        b=document.getElementById("bTextBox").value;
+        b=Number(b);
+
+       c=Math.sqrt(Math.pow(a,2)+ Math.pow(b,2));
+
+       document.getElementById("cLabel").innerHTML= "side c:"+ c;
+    }
+       
+}
+myCode4();
 function myCode5(){}
 function myCode6(){}
 function myCode7(){}
