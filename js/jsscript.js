@@ -8,8 +8,6 @@ function myCode1(){
     window.alert("hey akash")
     a=window.prompt("type your name")
 }
-//myCode1();
-
 
 function myCode2(){
     let firstName="bro";
@@ -20,35 +18,40 @@ function myCode2(){
     console.log(age);
     console.log(student);
 
-    document.getElementById("p1").innerHTML="hello"+ firstName;
+    //template literals
+    console.log(`your age is ${age}, and you are my ${firstName} , also i have $${age}` );
+
+
+   
+    
     //arithmetic operation
     //augmented assignment operator
     let a =20;
     console.log(a+=1);
+
+     //math 
+     let x;
+     let y;  
+     let z;
+     
+     x=Math.round(7.8);
+     console.log(x);
+     x=Math.floor();
+     x=Math.pow();
+     x=Math.sqrt(x);
+     x=Math.floor();
+     x=Math.floor();
+
+
+     //ternary operator
+     checkWinner(false);
+     function checkWinner(win){
+        win? console.log("you win") : console.log("you loose")
+     }
 }
-//myCode2();
-
-
 function myCode3(){
-    //math 
-    let x;
-    let y;
-    let z;
-    
-    x=Math.round(7.8);
-      console.log();
-    //x=Math.floor();
-    //x=Math.pow();
-    //x=Math.sqrt(x);
-    //x=Math.floor();
-    //x=Math.floor();
-  
-    
-}
-//myCode3();
-function myCode4(){
-    //hypotenuse of a triangle
-    document.getElementById("submitButton").onclick = function(){
+     //hypotenuse of a triangle
+     document.getElementById("submitButton").onclick = function(){
         a=document.getElementById("aTextBox").value;
         a=Number(a);
 
@@ -59,9 +62,17 @@ function myCode4(){
 
        document.getElementById("cLabel").innerHTML= "side c:"+ c;
     }
-       
 }
-myCode4();
+
+function myCode4(){
+     //to locale strings
+
+     let money=12345564356.678;
+     money=money.toLocaleString("hi-IN", {style: "currency", currency:"INR"});
+     console.log(money);
+
+      
+}
 function myCode5(){}
 function myCode6(){}
 function myCode7(){}
@@ -78,3 +89,25 @@ function myCode17(){}
 function myCode18(){}
 function myCode19(){}
 function myCode20(){}
+
+
+
+
+function askUserForFunction() {
+    var userInput = prompt('Which function do you want to run? Enter a number between 1 and 20:');
+
+    // Convert the user input to a number
+    var selectedFunctionNumber = parseInt(userInput);
+
+    // Check if the input is a valid number and within the range of 1 to 20
+    if (!isNaN(selectedFunctionNumber) && selectedFunctionNumber >= 1 && selectedFunctionNumber <= 20) {
+      // Build the function name dynamically and call it
+      var functionName = 'myCode' + selectedFunctionNumber;
+      window[functionName]();
+    } else {
+      alert('Invalid input. Please enter a number between 1 and 20.');
+    }
+  }
+
+  // Call the function to start the process
+  askUserForFunction();
