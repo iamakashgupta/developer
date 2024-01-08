@@ -51,7 +51,7 @@ function myCode2(){
 }
 function myCode3(){
      //hypotenuse of a triangle
-     document.getElementById("submitButton").onclick = function(){
+        document.getElementById("submitButton").onclick = function(){
         a=document.getElementById("aTextBox").value;
         a=Number(a);
 
@@ -66,15 +66,61 @@ function myCode3(){
 
 function myCode4(){
      //to locale strings
+     
 
      let money=12345564356.678;
      money=money.toLocaleString("hi-IN", {style: "currency", currency:"INR"});
      console.log(money);
+    
+     
+    }
+function myCode5(){
+  // temperature converter
+  document.getElementById("submitButton").onclick= function(){
+    let temp;
 
+
+    if (document.getElementById("celsiusTemp").checked) {
+      temp=document.getElementById("textLabel").value;
+      temp=Number(temp);
+
+      temp=toCelsius(temp);
+      document.getElementById("tempResult").innerHTML= "Your temperature in celsius is:",temp;
       
+    }else if(document.getElementById("fahrenheitTemp").checked){
+      temp=document.getElementById("textLabel").value;
+      temp=Number(temp);
+
+      temp=toFahrenheit(temp);
+      document.getElementById("tempResult").innerHTML= "Your temperature in fahrenheit is:",temp;
+    }else{
+      document.getElementById("tempResult").innerHTML="please select one";
+    }
+  }
+  
+  function toCelsius(temp){
+    return(temp-32)*5/9
+  } 
+  function toFahrenheit(temp){
+    return temp *9/5 +32
+  } 
 }
-function myCode5(){}
-function myCode6(){}
+function myCode6(){
+  // arrays
+  let fruits=["apple","banana"]
+  fruits.push("lemon");
+  fruits.pop();
+  fruits.unshift("ki");
+  fruits.push("lemon");
+  fruits.push("lemon");
+
+  
+  console.log(fruits html
+
+
+  
+}
+myCode6();
 function myCode7(){}
 function myCode8(){}
 function myCode9(){}
@@ -93,7 +139,7 @@ function myCode20(){}
 
 
 
-function askUserForFunction() {
+/*function askUserForFunction() {
     var userInput = prompt('Which function do you want to run? Enter a number between 1 and 20:');
 
     // Convert the user input to a number
@@ -111,3 +157,4 @@ function askUserForFunction() {
 
   // Call the function to start the process
   askUserForFunction();
+  */
