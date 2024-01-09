@@ -7,6 +7,20 @@ function myCode1(){
     //alert and prompt
     window.alert("hey akash")
     a=window.prompt("type your name")
+
+  // arrays
+  let fruits=["apple","banana"]
+  fruits.push("lemon");
+  fruits.pop();
+  fruits.unshift("ki");
+  fruits.push("lemon");
+  fruits.push("lemon");
+
+  
+  console.log(fruits html
+
+
+
 }
 
 function myCode2(){
@@ -106,19 +120,14 @@ function myCode5(){
   } 
 }
 function myCode6(){
-  // arrays
-  let fruits=["apple","banana"]
-  fruits.push("lemon");
-  fruits.pop();
-  fruits.unshift("ki");
-  fruits.push("lemon");
-  fruits.push("lemon");
+  // Object oriented programming
+  const car={
+    model: "mustang",
+    year: 2023,
 
-  
-  console.log(fruits html
+    drive: fun
+  }
 
-
-  
 }
 myCode6();
 function myCode7(){}

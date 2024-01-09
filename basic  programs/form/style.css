@@ -1,0 +1,51 @@
+body{
+    background:linear-gradient(skyblue,pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#aDiv{
+    background: linear-gradient(pink,skyblue);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px;
+    margin: 30px;
+}
+#bDiv{
+    background: linear-gradient(pink,skyblue);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px;
+    margin: 30px;
+}
+#cDiv{
+    background: linear-gradient(pink,skyblue);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px;
+    margin: 30px;
+}
+#dDiv{
+    background: linear-gradient(pink,skyblue);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px;
+    margin: 30px;
+}
+#eDiv{
+    background: linear-gradient(pink,skyblue);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px;
+    margin: 30px;
+}
+
