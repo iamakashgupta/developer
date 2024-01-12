@@ -8,34 +8,41 @@
 
 </head>
 <body>
-<div id="aDiv">
 
-    <h1>PLEASE ENTER THE FOLLOWING BIODATA</h1>
-    <label >first name: </label>
-    <input type="text" id="aText"><br>
-    <br>
-    <label >Last name:</label>
-      <input type="text" id="bText"><br>
-      <br>
-      <label >Nationality</label>
-      <input type="text" id="cText" id=""><br>
-      <br>
-      <label >Phone Number:</label>
-      <input type="text" id="dText"><br>
-      <button type="submit">Submit</button>
-    <hr>
-</div>
 <div id="bDiv">
 
     <h1>TO ACCESS , PLEASE ENTER</h1>
-    
-    <label >Username:</label>
-    <input type="text" id="uText"><br>
-    <br>
-    <label >Password:</label>
-    <input type="password" id="pText"><br>
-    <br>
-    <button type="submit">Submit</button>
+    <form>
+        <label >Username:</label>
+        <input type="text" id="uText"><br>
+        <br>
+        <label >Password:</label>
+        <input type="password" id="pText"><br>
+        <br>
+        <button type="submit" id="passSubmit">Submit</button>
+    </form>
+
+    <hr>
+</div>
+<div id="aDiv">
+
+    <h1>PLEASE ENTER THE FOLLOWING BIODATA</h1>
+    <form>
+        <label >first name: </label>
+        <in put type="text" id="aText"><br>
+     <br>
+        <label >Last name:</label>
+        <input type="text" id="bText"><br>
+        <br>
+        <label >Nationality</label>
+        <input type="text" id="cText" id=""><br>
+        <br>
+        <label >Phone Number:</label>
+        <input type="text" id="dText"><br>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+          
+
     <hr>
 </div>
 <div id="cDiv">
@@ -46,31 +53,36 @@
         <label >Select a country:</label>
     </b>
     <br>
-    <label >Jordan:</label>
-    <input type="checkbox" name="country" id="cJordan">
-    <br>
-    <label >Yemen:</label>
-    <input type="checkbox" name="country" id="cYemen">
-    <br>
-    <label >Qatar:</label>
-    <input type="checkbox" name="country" id="cQatar">
-    <br>
-    <br>
-    <br>
-    <b><label >Select a language</label></b><br>
-    <label >Arabic:</label>
-    <input type="checkbox" name="language" id="lArabic">
-    <br>
-    <label >English:</label>
-    <input type="checkbox" name="language" id="lEnglish">
-    <br>
-    <label >French:</label>
-    <input type="checkbox" name="language" id="lFrench">
-    <br>
-    
-    <hr>
-</div>
-<div id="dDiv">
+    <form>
+
+        <label >Jordan:</label>
+        <input type="checkbox" name="country" id="cJordan">
+        <br>
+        <label >Yemen:</label>
+        <input type="checkbox" name="country" id="cYemen">
+        <br>
+        <label >Qatar:</label>
+        <input type="checkbox" name="country" id="cQatar">
+        <br>
+        <br>
+        <br>
+        <b><label >Select a language</label></b><br>
+        <label >Arabic:</label>
+        <input type="checkbox" name="language" id="lArabic">
+        <br>
+        <label >English:</label>
+        <input type="checkbox" name="language" id="lEnglish">
+        <br>
+        <label >French:</label>
+        <input type="checkbox" name="language" id="lFrench">
+        <br>
+        <br>
+        <BUtton type="submit" id="checkSubmit">Submit</BUtton>
+    </form>
+        
+        <hr>
+    </div>
+    <div id="dDiv">
     
     
     <h1>PLEASE CHECK ONE OF THE FOLLOWING</h1>
@@ -79,11 +91,13 @@
         <label >Select a country:</label>
     </b>
     <br>
-    <label >Jordan:</label>
-    <input type="radio" name="country" id="cJordan">
-    <br>
-    <label >Yemen:</label>
-    <input type="radio" name="country" id="cYemen">
+    <form>
+        
+        <label >Jordan:</label>
+        <input type="radio" name="country" id="cJordan">
+        <br>
+        <label >Yemen:</label>
+        <input type="radio" name="country" id="cYemen">
     <br>
     <label >Qatar:</label>
     <input type="radio" name="country" id="cQatar">
@@ -91,8 +105,11 @@
     <br>
     <br>
     <b><label >Select a language</label></b><br>
-    <label >Arabic:</label>
-    <input type="radio" name="language" id="lArabic">
+    <form>
+
+        <label >Arabic:</label>
+        <input type="radio" name="language" id="lArabic">
+    </form>
     <br>
     <label >English:</label>
     <input type="radio" name="language" id="lEnglish">
@@ -100,6 +117,9 @@
     <label >French:</label>
     <input type="radio" name="language" id="lFrench">
     <br>
+    <br>
+    <button type="submit" id="radioSubmit">Submit</button>
+</form>
     <hr>
 </div>  
 <div id="eDiv">
@@ -114,8 +134,19 @@
         <input type="radio" name="choice" id="aForm" value="ONE">Yes
         <input type="radio" name="choice" id="bForm" value="two">No
     </form>
+    <br>
+    <button type="submit" formSubmit>Submit</button>
+
     <hr>
-</div> 
-    
+</div>
+<div id="divResult">
+    <h3><i>The results are shown here</i></h3>
+    <p id="a0Result"></p>
+    <p id="a1Result"></p>
+    <p id="a2Result"></p>
+    <p id="a3Result"></p>
+    <hr>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

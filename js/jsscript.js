@@ -8,16 +8,16 @@ function myCode1(){
     window.alert("hey akash")
     a=window.prompt("type your name")
 
-  // arrays
-  let fruits=["apple","banana"]
-  fruits.push("lemon");
-  fruits.pop();
-  fruits.unshift("ki");
-  fruits.push("lemon");
-  fruits.push("lemon");
+    // arrays
+    let fruits=["apple","banana"]
+    fruits.push("lemon");
+    fruits.pop();
+    fruits.unshift("ki");
+    fruits.push("lemon");
+    fruits.push("lemon");
 
-  
-  console.log(fruits html
+    
+    console.log(fruits)
 
 
 

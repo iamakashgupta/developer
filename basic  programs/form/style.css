@@ -1,10 +1,10 @@
 body{
-    background:linear-gradient(skyblue,pink);
+    background:linear-gradient(#ffd194,#70e1f5);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 #aDiv{
-    background: linear-gradient(pink,skyblue);
+    background: linear-gradient(#70e1f5,#ffd194);
     border-style: ridge;
     border-radius: 5px;
     border-color: blueviolet;
@@ -13,7 +13,7 @@ body{
     margin: 30px;
 }
 #bDiv{
-    background: linear-gradient(pink,skyblue);
+    background: linear-gradient(#70e1f5,#ffd194);
     border-style: ridge;
     border-radius: 5px;
     border-color: blueviolet;
@@ -22,7 +22,7 @@ body{
     margin: 30px;
 }
 #cDiv{
-    background: linear-gradient(pink,skyblue);
+    background: linear-gradient(#70e1f5,#ffd194);
     border-style: ridge;
     border-radius: 5px;
     border-color: blueviolet;
@@ -31,7 +31,7 @@ body{
     margin: 30px;
 }
 #dDiv{
-    background: linear-gradient(pink,skyblue);
+    background: linear-gradient(#70e1f5,#ffd194);
     border-style: ridge;
     border-radius: 5px;
     border-color: blueviolet;
@@ -40,7 +40,16 @@ body{
     margin: 30px;
 }
 #eDiv{
-    background: linear-gradient(pink,skyblue);
+    background: linear-gradient(#70e1f5,#ffd194);
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px;
+    margin: 30px;
+}
+#divResult{
+    background: linear-gradient(#70e1f5,#ffd194);
     border-style: ridge;
     border-radius: 5px;
     border-color: blueviolet;
