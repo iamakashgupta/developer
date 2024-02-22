@@ -30,9 +30,54 @@ function myFunction2(){
     alert( 6 - '2' ); // 4, converts '2' to a number
     let a = (1 + 2, 3 + 4);
     console.log(a);
+    let age = 21;
+    let message = age <30? "great":"wtf";
+    console.log(message);
+    
+    
+}
+// myFunction2();
+
+function myFunction3(){
+    let begin;
+    begin=prompt("what's the official name of js");
+    if(begin=="ecma"){
+        console.log("you are correct");
+    }else{
+        console.log("you don't know ecma");
+    }
+    //
+    console.log("javascript is so cool")
+    //
+    
+
+}
+//false || myFunction3();
+function myFunction4(){
+    // conditional statement
+    true || console.log("so cool js")
+    false || console.log("hey so")
+    false || console.log("hey akash")
+    // only the falsy one going to run the environment
+    
+    console.log(true && false)
+    console.log(true || false)
+    console.log("this is a not statement",!true)
+    /*
+    // Precedence of AND && is higher than OR ||
+    
+    nullish colescing 
+    The result of a ?? b is:
+
+    if a is defined, then a,
+    if a isn’t defined, then b.
+    */
 
 
-
-
-}   
-myFunction2();
+}
+// myFunction4();
+function myFunction5(){
+    console.log("it's about loop my dear")
+    
+}
+myFunction5();
