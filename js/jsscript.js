@@ -129,8 +129,12 @@ function myCode6(){
   }
 
 }
-myCode6();
-function myCode7(){}
+//myCode6();
+function myCode7(){
+  confirm("are you the killer")
+  console.log("hey");
+}
+myCode7();
 function myCode8(){}
 function myCode9(){}
 function myCode10(){}
