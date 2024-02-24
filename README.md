@@ -1,4 +1,4 @@
 # developer
 
-###THIS IS COMMITED ON WEB
+###THIS IS COMMITTED ON WEB
  

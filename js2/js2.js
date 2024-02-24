@@ -77,7 +77,66 @@ function myFunction4(){
 }
 // myFunction4();
 function myFunction5(){
+// checking the age
+
     console.log("it's about loop my dear")
-    
+        let age;
+    function checkAge(age){
+        age=prompt("enter your age",18)
+        age>=18? "true":confirm("Did your parent allow you?")
+    }
+    checkAge();
 }
-myFunction5();
+// myFunction5();
+function myFunction6(){
+    // checking the smallest number of the two
+    function checkMin(num1,num2){
+        
+        return(num1<num2)? "num1 is smaller":"num2 is smaller";
+    }
+    let result=checkMin(prompt("enter the num1"), prompt("enter the num2"));
+    console.log(result);
+
+}
+// myFunction6();
+function myFunction7(){
+    function checkPower(a,b){
+        return a**b;
+    }
+    let result=checkPower(prompt("enter the number"),prompt("enter the power"));
+    console.log(result);
+}
+// myFunction7();
+
+function myFunction8(){
+    function ask(question, yes, no) {
+        if (confirm(question)) yes();//if statement
+        else no();
+      }
+      
+      ask(
+        "Do you agree?",
+        () => alert("You agreed."),
+        () => alert("You canceled the execution.")
+      );
+}
+myFunction8()
+function myFunction9(){}
+function myFunction10(){}
+function myFunction11(){}
+function myFunction12(){}
+function myFunction813(){}
+function myFunction14(){}
+function myFunction15(){}
+function myFunction16(){}
+/*
+function myFunction8(){}
+function myFunction8(){}
+function myFunction8(){}
+function myFunction8(){}
+function myFunction8(){}
+function myFunction8(){}
+function myFunction8(){}
+function myFunction8(){}
+function myFunction8(){}
+*/
