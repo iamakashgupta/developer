@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(skyblue,pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pId{
+    border: 2px dotted yellow;
+}
+#boxA{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    margin: 4px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.box{
+    border: 2px solid black;
+    padding: 1px;
+    margin: 4px;
+    text-align: center;
+    font-size: x-large;
+
+    height: 100px;
+    width: 100px;
+}
+.aflex{
+    border: 2px solid red;
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+}
+.bflex{
+    border: 2px solid red;
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+}
+.cflex{
+    border: 2px solid red;
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+
+}
+.container{
+    display: flex;
+    /* flex-direction:row; */
+    justify-content:space-around;
+    align-items: center;
+}
