@@ -120,8 +120,40 @@ function myFunction8(){
         () => alert("You canceled the execution.")
       );
 }
-myFunction8()
-function myFunction9(){}
+// myFunction8()
+function myFunction9(){
+    /**
+
+    let x;
+    x = Math.floor(Math.random() *10);
+    console.log(x);
+    
+    if (x) {
+        console.log(x)
+    }
+    
+    let width = window.prompt("what's the width");
+    let height = window.prompt("what's the height");
+    
+    width = Number(width);
+    height = Number(height);
+    
+    let area = width* height;
+    console.log("the area is "+area);
+    
+    function getArea(width, height) {
+        return area;
+    }
+    
+    */
+
+    let name = "akash gupta";
+    console.log(`hello ${name}`);
+
+}
+myFunction9();
+
+
 function myFunction10(){}
 function myFunction11(){}
 function myFunction12(){}
@@ -130,13 +162,13 @@ function myFunction14(){}
 function myFunction15(){}
 function myFunction16(){}
 /*
-function myFunction8(){}
-function myFunction8(){}
-function myFunction8(){}
-function myFunction8(){}
-function myFunction8(){}
-function myFunction8(){}
-function myFunction8(){}
-function myFunction8(){}
-function myFunction8(){}
+function myFunction17(){}
+function myFunction18(){}
+function myFunction19(){}
+function myFunction20(){}
+function myFunction21(){}
+function myFunction22(){}
+function myFunction23(){}
+function myFunction24(){}
+function myFunction25(){}
 */
