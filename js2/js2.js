@@ -147,8 +147,15 @@ function myFunction9(){
     
     */
 
-    let name = "akash gupta";
-    console.log(`hello ${name}`);
+    // let name = "akash gupta";
+    // console.log(`hello ${name}`);
+
+
+    // to locale string
+    console.log("to locale string(locale, (options))");
+    let num = 324234.435;
+    num = num.toLocaleString("hi-IN",{style: "currency", currency: "INR"});
+    console.log(num);
 
 }
 myFunction9();
