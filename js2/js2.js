@@ -101,7 +101,7 @@ function myFunction6(){
 // myFunction6();
 function myFunction7(){
     function checkPower(a,b){
-        return a**b;
+        return a**b;\
     }
     let result=checkPower(prompt("enter the number"),prompt("enter the power"));
     console.log(result);
